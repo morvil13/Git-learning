@@ -213,3 +213,13 @@ body {
 .container_top-indent {
   margin-top: 70px;
 }
+
+.sidebar {
+  width: 200px;
+  height: 400px;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  background: #fff;
+  border-top: 1px solid #555;
+}
