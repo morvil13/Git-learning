@@ -161,6 +161,10 @@ body {
   margin-right: 15px;
 }
 
+.button-add__add-video:hover {
+  background: rgba(85, 85, 85, 0.1);
+}
+
 .button-add__notify {
   display: block;
   float: left;

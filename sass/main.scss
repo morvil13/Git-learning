@@ -89,6 +89,9 @@ body {
 		text-decoration: none;
 		font: 12px/28px Arial, sans-serif;
 		margin-right: 15px;
+		&:hover {
+			background: rgba(#555,.1);
+		}
 	}
 	&__notify {
 		display: block;
