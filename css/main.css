@@ -203,3 +203,13 @@ body {
   color: #666;
   font: 400 16px Arial;
 }
+
+.container {
+  max-width: 960px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.container_top-indent {
+  margin-top: 70px;
+}
