@@ -215,11 +215,71 @@ body {
 }
 
 .sidebar {
-  width: 200px;
+  width: 240px;
   height: 400px;
   position: fixed;
+  padding-top: 10px;
   top: 60px;
   left: 0;
   background: #fff;
   border-top: 1px solid #555;
+}
+
+.sidebar__link {
+  width: 200px;
+  height: 28px;
+  margin-left: 30px;
+  text-indent: 40px;
+}
+
+.sidebar__link-ittem {
+  height: 100%;
+  display: block;
+  text-decoration: none;
+  color: rgba(17, 17, 17, 0.7);
+  font: 14px/28px Arial, sans-serif;
+}
+
+.sidebar__link-ittem:hover {
+  color: #fff;
+}
+
+.sidebar__link-ittem-bg1 {
+  background: url(/img/youtube-home.png) no-repeat left;
+}
+
+.sidebar__link-ittem-bg1:hover {
+  background: rgba(17, 17, 17, 0.7) url(/img/youtube-home-l.png) no-repeat left;
+}
+
+.sidebar__link-ittem-bg2 {
+  background: url(/img/youtube-profile.png) no-repeat left;
+}
+
+.sidebar__link-ittem-bg2:hover {
+  background: rgba(17, 17, 17, 0.7) url(/img/youtube-profile-l.png) no-repeat left;
+}
+
+.sidebar__link-ittem-bg3 {
+  background: url(/img/youtube-burn.png) no-repeat left;
+}
+
+.sidebar__link-ittem-bg3:hover {
+  background: rgba(17, 17, 17, 0.7) url(/img/youtube-burn-l.png) no-repeat left;
+}
+
+.sidebar__link-ittem-bg4 {
+  background: url(/img/youtube-star.png) no-repeat left;
+}
+
+.sidebar__link-ittem-bg4:hover {
+  background: rgba(17, 17, 17, 0.7) url(/img/youtube-star-l.png) no-repeat left;
+}
+
+.sidebar__link-ittem-bg5 {
+  background: url(/img/youtube-late.png) no-repeat left;
+}
+
+.sidebar__link-ittem-bg5:hover {
+  background: rgba(17, 17, 17, 0.7) url(/img/youtube-late-l.png) no-repeat left;
 }
